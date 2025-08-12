@@ -1,0 +1,164 @@
+{
+    "site": {
+        "title": "AcServiceInDelhi",
+        "description": "We offer complete AC installation, maintenance, and heating services across Delhi and NCR. Whether you need seasonal servicing or urgent repairs, our team delivers top-quality workmanship for optimal comfort year-round.",
+        "keywords": "air conditioning, AC service, Delhi, repair, installation",
+        "contact": {
+            "phone": "+91-70428 00949",
+            "email": "info@acserviceindelhi.com",
+            "address": "Karol Bagh, Delhi, India"
+        },
+        "social": {
+            "facebook": "https://www.facebook.com/acserviceindelhi",
+            "twitter": "https://twitter.com/acserviceindelhi",
+            "instagram": "https://www.instagram.com/acserviceindelhi",
+            "linkedin": "https://www.linkedin.com/company/acserviceindelhi"
+        },
+        "carasoul": [
+            {
+                "title": "Professional AC Repair Services – Fast & Reliable",
+                "subtext": "Keep your home cool and comfortable with our expert AC repair services in Delhi. Our trained technicians handle all AC brands and models, ensuring quick, affordable, and long-lasting solutions. From cooling issues to gas refilling, we’ve got you covered.",
+                "image": "img/carousel-1.jpg"
+            },
+            {
+                "title": "Quality Air Conditioning Services in Delhi NCR",
+                "subtext": "We offer complete AC installation, maintenance, and heating services across Delhi and NCR. Whether you need seasonal servicing or urgent repairs, our team delivers top-quality workmanship for optimal comfort year-round.",
+                "image": "img/carousel-2.jpg"
+            }
+        ],
+        "about": {
+            "title": "Welcome to Delhi’s Most Trusted Ac Service Center",
+            "subtext": "At AcServiceInDelhi, we are dedicated to providing top-notch air conditioning services across Delhi and NCR. Our team of experienced technicians is committed to ensuring your comfort with reliable installation, maintenance, and repair services for all types of AC units. We pride ourselves on our customer-centric approach, ensuring that every service is tailored to meet your specific needs."
+        },
+        "features": {
+            "title": "Why Delhi Chooses Us for AC Repair & Services!",
+            "subtext": "When it comes to AC repair, servicing, and installation in Delhi, customers trust us for our commitment to quality, fair pricing, and quick response time. Here’s why we’re the first choice for thousands of homes and offices.",
+            "items": [
+                {
+                    "title": "Expert Technicians",
+                    "subtext": "We are an experienced and reliable AC service provider in Delhi NCR, delivering professional repair and maintenance for all AC brands. Every job is backed by skilled technicians and genuine spare parts."
+                },
+                {
+                    "title": "Affordable Pricing",
+                    "subtext": "Get premium AC services at competitive rates without compromising on quality. Transparent pricing means no hidden costs – you pay only for the work done."
+                },
+                {
+                    "title": "24/7 Support",
+                    "subtext": "Whether it’s day or night, our emergency AC repair service ensures your cooling system is up and running when you need it most."
+                }
+            ]
+        },
+        "services": {
+            "title": "We Provide professional Ac Repair Services",
+            "subtext": "We offer a wide range of air conditioning services to meet all your cooling needs. From installation to emergency repairs, our team is here to help.",
+            "items": [
+                {
+                    "title": "AC Installation",
+                    "description": "Professional installation for all types of air conditioners, ensuring optimal performance and energy efficiency.",
+                    "image": "img/service-1.jpg",
+                    "icon": "img/icon/icon-01-light.png"
+                },
+                {
+                    "title": "AC Repair",
+                    "description": "Quick and reliable repair services for all AC brands, addressing issues like cooling problems, gas refilling, and more.",
+                    "image": "img/service-2.jpg",
+                    "icon": "img/icon/icon-02-light.png"
+                },
+                {
+                    "title": "AC Maintenance",
+                    "description": "Regular maintenance services to keep your AC running smoothly and efficiently throughout the year.",
+                    "image": "img/service-3.jpg",
+                    "icon": "img/icon/icon-03-light.png"
+                },
+                {
+                    "title": "Emergency Services",
+                    "description": "24/7 emergency AC repair services to ensure you stay cool even during unexpected breakdowns.",
+                    "image": "img/service-4.jpg",
+                    "icon": "img/icon/icon-04-light.png"
+                },
+                {
+                    "title": "AC Gas Refilling",
+                    "description": "Expert gas refilling services to restore your AC’s cooling efficiency, using only high-quality refrigerants.",
+                    "image": "img/service-5.jpg",
+                    "icon": "img/icon/icon-05-light.png"
+                },
+                {
+                    "title": "Heating Services",
+                    "description": "Professional heating services for your AC system, ensuring comfort during the colder months.",
+                    "image": "img/service-6.jpg",
+                    "icon": "img/icon/icon-06-light.png"
+                }
+            ]
+        },
+        "quotes": {
+            "title": "AC Services for Homes & Businesses in Delhi NCR",
+            "subtext": "Whether you’re a homeowner, office manager, or facility head, we provide professional AC repair, installation, and maintenance services tailored to your needs. Our experienced team ensures efficient cooling solutions for both individual clients and large organisations, with flexible scheduling and quick turnaround."
+        },
+        "teams": {
+            "title": "Meet Our Professional Team Members",
+            "subtext": "Our team of skilled technicians is dedicated to providing the best air conditioning services in Delhi. With years of experience and a commitment to excellence, we ensure your comfort is our top priority.",
+            "members": [
+                {
+                    "name": "Rajesh Kumar",
+                    "position": "Senior Technician",
+                    "image": "img/team-1.jpg",
+                    "facebook": "https://www.facebook.com/rajesh.kumar",
+                    "twitter": "https://twitter.com/rajesh_kumar",
+                    "instagram": "https://www.instagram.com/rajesh_kumar"
+                },
+                {
+                    "name": "Sitaram Sharma",
+                    "position": "Customer Service Manager",
+                    "image": "img/team-2.jpg",
+                    "facebook": "https://www.facebook.com/sita.sharma",
+                    "twitter": "https://twitter.com/sita_sharma",
+                    "instagram": "https://www.instagram.com/sita_sharma"
+                },
+                {
+                    "name": "Amit Verma",
+                    "position": "Installation Specialist",
+                    "image": "img/team-3.jpg",
+                    "facebook": "https://www.facebook.com/amit.verma",
+                    "twitter": "https://twitter.com/amit_verma",
+                    "instagram": "https://www.instagram.com/amit_verma"
+                },
+                {
+                    "name": "Nehal Gupta",
+                    "position": "Maintenance Expert",
+                    "image": "img/team-4.jpg",
+                    "facebook": "https://www.facebook.com/neha.gupta",
+                    "twitter": "https://twitter.com/neha_gupta",
+                    "instagram": "https://www.instagram.com/neha_gupta"
+                }
+            ]
+        },
+        "testimonials": {
+            "title": "What They Say About Our Services",
+            "subtext": "We value our customers' feedback and strive to improve our services based on their experiences. Here are some testimonials from our satisfied clients.",
+            "items": [
+                {
+                    "name": "Anita Verma",
+                    "feedback": "Excellent service! The technician arrived on time and fixed my AC quickly. Highly recommend AcServiceInDelhi for anyone needing AC repair.",
+                    "image": "img/testimonial-1.jpg",
+                    "profession": "Homeowner"
+                },
+                {
+                    "name": "Rohit Singh",
+                    "feedback": "I had a great experience with their AC installation service. The team was professional and knowledgeable. My new AC is working perfectly!",
+                    "image": "img/testimonial-2.jpg",
+                    "profession": "Business Owner"
+                },
+                {
+                    "name": "Rajesh Mehta",
+                    "feedback": "Their emergency AC repair service saved me during a hot summer night. The technician was prompt and resolved the issue quickly.",
+                    "image": "img/testimonial-3.jpg",
+                    "profession": "Office Manager"
+                }
+            ]
+        },
+        "contactus": {
+            "title": "If You Have Any Query, Please Contact Us",
+            "subtext": "Have questions or need assistance? Contact us today for reliable AC services in Delhi."
+        }
+    }
+}

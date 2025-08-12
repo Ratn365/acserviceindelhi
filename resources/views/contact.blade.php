@@ -8,10 +8,8 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-5">If You Have Any Query, Please Contact Us</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form
-                        with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're
-                        done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <h1 class="display-6 mb-5">{{ $clientData['site']['contactus']['title']}}</h1>
+                    <p class="mb-4"> {{ $clientData['site']['contactus']['subtext']}}</p>
                     <form>
                         <div class="row g-3">
                             <div class="col-md-6">

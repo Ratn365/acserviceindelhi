@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-6">
                 <h5 class="text-light mb-4">Newsletter</h5>
-                <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p>
+                <p>Sign Up To Our Newsletter To Get The Latest Offers</p>
                 <div class="position-relative">
                     <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                     <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -15,9 +15,9 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Get In Touch</h5>
-                <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <p><i class="fa fa-map-marker-alt me-3"></i>{{$clientData['site']['contact']['address']}}</p>
+                <p><i class="fa fa-phone-alt me-3"></i>{{$clientData['site']['contact']['phone']}}</p>
+                <p><i class="fa fa-envelope me-3"></i>{{$clientData['site']['contact']['email']}}</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Our Services</h5>
@@ -36,10 +36,10 @@
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Follow Us</h5>
                 <div class="d-flex">
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="{{$clientData['site']['social']['twitter'] }}"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="{{$clientData['site']['social']['facebook'] }}"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="{{$clientData['site']['social']['instagram'] }}"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square rounded-circle me-1" href="{{$clientData['site']['social']['linkedin'] }}"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -48,10 +48,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    &copy; <a href="#">{{$clientData['site']['title']}}</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                    Designed By <a href="">{{$clientData['site']['title']}}</a>
                 </div>
             </div>
         </div>

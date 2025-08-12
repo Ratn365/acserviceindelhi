@@ -3,8 +3,8 @@
         <div class="row g-0 mx-lg-0">
             <div class="col-lg-6 quote-text" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
                 <div class="h-100 px-4 px-sm-5 ps-lg-0 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="text-white mb-4">AC Services for Homes & Businesses in Delhi NCR</h1>
-                    <p class="text-light mb-5">Whether you’re a homeowner, office manager, or facility head, we provide professional AC repair, installation, and maintenance services tailored to your needs. Our experienced team ensures efficient cooling solutions for both individual clients and large organisations, with flexible scheduling and quick turnaround.</p>
+                    <h1 class="text-white mb-4">{{$clientData['site']['quotes']['title']}}</h1>
+                    <p class="text-light mb-5">{{$clientData['site']['quotes']['subtext']}}</p>
                     <a href="" class="align-self-start btn btn-primary py-3 px-5">Get More Details</a>
                 </div>
             </div>

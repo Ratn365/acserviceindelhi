@@ -3,7 +3,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="h-100">
-                    <h1 class="display-6 mb-5">Welcome to Delhi’s Most Trusted Ac Service Center</h1>
+                    <h1 class="display-6 mb-5">{{$clientData['site']['about']['title']}}</h1>
                     <div class="row g-4 mb-4">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
@@ -18,7 +18,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-4">Looking for reliable AC service in Delhi NCR? We specialize in AC repair, AC gas filling, AC installation, annual maintenance contracts (AMC), and heating solutions. Whether it’s a split AC, window AC, or central air system, our team guarantees quick response, transparent pricing, and long-lasting results.</p>
+                    <p class="mb-4">{{$clientData['site']['about']['subtext']}}</p>
                     <div class="border-top mt-4 pt-4">
                         <div class="row">
                             <div class="col-sm-6">
@@ -26,15 +26,15 @@
                                     <div class="btn-lg-square bg-primary rounded-circle me-3">
                                         <i class="fa fa-phone-alt text-white"></i>
                                     </div>
-                                    <h5 class="mb-0">+91 7042800949</h5>
+                                    <h5 class="mb-0">{{$clientData['site']['contact']['phone']}}</h5>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center">
-                                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                                    <div class="btn-lg-square bg-primary rounded-circle me-2">
                                         <i class="fa fa-envelope text-white"></i>
                                     </div>
-                                    <h5 class="mb-0">info@acservice.com</h5>
+                                    <h5 class="mb-0 fs-6">{{$clientData['site']['contact']['email']}}</h5>
                                 </div>
                             </div>
                         </div>

@@ -2,15 +2,16 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="display-6 mb-5">Why Delhi Chooses Us for AC Repair & Services!</h1>
-                <p class="mb-5">When it comes to AC repair, servicing, and installation in Delhi, customers trust us for our commitment to quality, fair pricing, and quick response time. Here’s why we’re the first choice for thousands of homes and offices.</p>
+                <h1 class="display-6 mb-5">{{$clientData['site']['features']['title']}}</h1>
+                <p class="mb-5">{{$clientData['site']['features']['subtext']}}</p>
+
                 <div class="d-flex mb-5">
                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle" style="width: 90px; height: 90px;">
                         <img class="img-fluid" src="{{ asset('img/icon/icon-08-light.png') }}" alt="">
                     </div>
                     <div class="ms-4">
-                        <h5 class="mb-3">Trusted Service Center</h5>
-                        <span>We are an experienced and reliable AC service provider in Delhi NCR, delivering professional repair and maintenance for all AC brands. Every job is backed by skilled technicians and genuine spare parts.</span>
+                        <h5 class="mb-3">{{$clientData['site']['features']['items'][0]['title']}}</h5>
+                        <span>{{$clientData['site']['features']['items'][0]['subtext']}}</span>
                     </div>
                 </div>
                 <div class="d-flex mb-5">
@@ -18,8 +19,8 @@
                         <img class="img-fluid" src="{{ asset('img/icon/icon-10-light.png') }}" alt="">
                     </div>
                     <div class="ms-4">
-                        <h5 class="mb-3">Reasonable Price</h5>
-                        <span>Get premium AC services at competitive rates without compromising on quality. Transparent pricing means no hidden costs – you pay only for the work done.</span>
+                        <h5 class="mb-3">{{$clientData['site']['features']['items'][1]['title']}}</h5>
+                        <span>{{$clientData['site']['features']['items'][1]['subtext']}}</span>
                     </div>
                 </div>
                 <div class="d-flex mb-0">
@@ -27,8 +28,8 @@
                         <img class="img-fluid" src="{{ asset('img/icon/icon-06-light.png') }}" alt="">
                     </div>
                     <div class="ms-4">
-                        <h5 class="mb-3">24/7 Supports</h5>
-                        <span>Whether it’s day or night, our emergency AC repair service ensures your cooling system is up and running when you need it most.</span>
+                        <h5 class="mb-3">{{$clientData['site']['features']['items'][2]['title']}}</h5>
+                        <span>{{$clientData['site']['features']['items'][2]['subtext']}}</span>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,20 @@
 <div class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-    <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
-        <h1 class="m-0"><img class="img-fluid me-3" src="{{ asset('img/icon/icon-02-primary.png') }}" alt="">{{ $clientData['site']['title'] }}</h1>
+    <!-- Logo 
+<a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center">
+        <h1 class="m-0 fs-4"><img class="img-fluid me-3" src="{{ asset('img/icon/icon-02-primary.png') }}" alt="">{{ $clientData['site']['title'] }}</h1>
     </a>
+-->
+    <a href="/" class="navbar-brand d-flex align-items-center">
+       <img class="img-fluid ms-3" src="{{ asset('img/icon/icon-02-primary.png') }}" alt="">
+        <h1 class="mb-0 fs-4 fw-bold d-flex flex-column">          
+            <span class="d-flex align-items-center">
+                <span class="text-primary">Ac</span>
+                <span class="text-primary">Service</span>
+            </span>
+            <span class="text-secondary small  text-end">In Delhi</span>            
+        </h1>       
+    </a>
+
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,10 +36,11 @@
             <a href="{{ url('/contact') }}" class="nav-item nav-link">Contact Us</a>
         </div>
         <div class="h-100 d-lg-inline-flex align-items-center d-none">
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="{{$clientData['site']['social']['facebook'] }}"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="{{$clientData['site']['social']['twitter'] }}"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="{{$clientData['site']['social']['linkedin'] }}"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-square rounded-circle bg-light text-primary me-0" href="{{$clientData['site']['social']['instagram'] }}"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
 </div>
