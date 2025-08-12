@@ -1,0 +1,57 @@
+name: 🚀 Deploy Laravel 12 to Hostinger via FTP (local build)
+
+on:
+  push:
+    branches: [prod] # Deploy only when prod branch is updated
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      # 1️⃣ Deploy Laravel core to public_html/laravel_app
+      - name: 📤 Deploy Laravel core
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_TARGET_DIR }}/../laravel_app/
+          local-dir: ./
+          dangerous-clean-slate: false
+          exclude: |
+           
+            vendor/**
+            **/vendor/**
+            node_modules/**
+            **/node_modules/**
+            tests/**
+            **/tests/**
+            .git/**
+            **/.git/**
+            .github/**
+            **/.github/**
+            .env
+            README.md
+            package-lock.json
+            composer.lock
+
+      # 2️⃣ Deploy public folder contents to public_html (except index.php override)
+      - name: 🎨 Deploy public files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_TARGET_DIR }}/
+          local-dir: ./public/
+          dangerous-clean-slate: false
+          exclude: |
+            index.php
+
+      
+
+      
