@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\View;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,5 +22,17 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
+         $jsonPath = public_path('data/client.json');
+        $client = [];
+
+        if (File::exists($jsonPath)) {
+            $client = json_decode(File::get($jsonPath), true);
+        }
+
+        // Share with all Blade views
+        View::share('clientData', $client);
     }
 }
+
+
+ 

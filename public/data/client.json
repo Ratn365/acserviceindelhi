@@ -1,0 +1,22 @@
+{
+    "site": {
+        "title": "AcServiceInDelhi",
+        "description": "We offer complete AC installation, maintenance, and heating services across Delhi and NCR. Whether you need seasonal servicing or urgent repairs, our team delivers top-quality workmanship for optimal comfort year-round.",
+        "keywords": "air conditioning, AC service, Delhi, repair, installation"
+    },
+    "company": {
+        "name": "Acme Corp",
+        "address": "123 Business St, Delhi, India",
+        "email": "ratn@gmial.com"
+    },
+    "contacts": [
+        {
+            "name": "John Doe",
+            "phone": "1234567890"
+        },
+        {
+            "name": "Jane Smith",
+            "phone": "9876543210"
+        }
+    ]
+}
