@@ -22,8 +22,7 @@ jobs:
           server-dir: ${{ secrets.FTP_TARGET_DIR }}/../laravel_app/
           local-dir: ./
           dangerous-clean-slate: false
-          exclude: |
-           
+          exclude: |           
             vendor/**
             **/vendor/**
             node_modules/**
@@ -38,20 +37,3 @@ jobs:
             README.md
             package-lock.json
             composer.lock
-
-      # 2️⃣ Deploy public folder contents to public_html (except index.php override)
-      - name: 🎨 Deploy public files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_TARGET_DIR }}/
-          local-dir: ./public/
-          dangerous-clean-slate: false
-          exclude: |
-            index.php
-
-      
-
-      
