@@ -19,7 +19,7 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_TARGET_DIR }}/../laravel_app/
+          server-dir: /laravel_app/
           local-dir: ./
           dangerous-clean-slate: false
           exclude: |           
